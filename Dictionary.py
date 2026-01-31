@@ -10,3 +10,10 @@ print("Updated Dictionary:", my_dict)
 # 4.3 Removing Elements
 del my_dict['name']
 print("After removing 'name':", my_dict)
+
+# 4.4 Merging of Dictionaries
+my_dict2 = {'gender': 'Female', 'place': 'Cnada'}
+my_dict1.update(my_dict2)
+print(my_dict1)   
+
+
