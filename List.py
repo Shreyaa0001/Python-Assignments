@@ -12,3 +12,7 @@ print("After removing 20:", my_list)
 # 1.3 Sort list elements
 my_list.sort()
 print("Sorted List:", my_list)
+
+# 1.4 Reverse list elements 
+print("Reversed List:", my_list[::-1])
+
