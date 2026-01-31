@@ -14,4 +14,8 @@ print("Intersection:", set_a.intersection(set_b))
 print()
 print("Intersection:",set_a & set_b)
 
+#2.4 Difference of the elements 
+print("Differenace of set_a & set_b is:",set_b.difference(set_a))
+print("Differenace of set_a & set_b is:",set_a.difference(set_b))
+
 
