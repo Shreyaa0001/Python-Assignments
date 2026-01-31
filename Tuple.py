@@ -11,3 +11,8 @@ print("Access nested element:", nested_tuple[2][1])
 # 3.3 Repetition of tuple
 repeated = my_tuple * 2
 print("Repeated Tuple:", repeated)
+
+# 3.4 Concatenation of tuples 
+my_tuple2 = (40, 50, 60)
+result = my_tuple1 + my_tuple2
+print(result) 
